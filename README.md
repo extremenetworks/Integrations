@@ -1,7 +1,7 @@
 # Integrations
 Community maintained integrations
 
-*[Integrations with Infoblox](Infoblox/README.md)
+* [Integrations with Infoblox](Infoblox/README.md)
 
 
 # Support
