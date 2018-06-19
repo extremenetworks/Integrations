@@ -2,8 +2,8 @@
 
 ## Extreme Management Center configuration
 
-### Prepare InfoBlox extensible attributes in Infoblox
-* Update the variables in the XMC2IB-first-once.py
+### Prepare Infoblox extensible attributes in Infoblox
+* Update the variables in the XMC2IB-first-once.py  
 ![XMC2IB-first-once](XMC2IB-first-once.png)
 * Upload the 'XMC2IB-first-once.py' script to the Extreme Management Center.
 * Change the script to be executable: 
@@ -14,12 +14,12 @@ chmod +x XMC2IB-first-once.py
 ```bash
 ./XMC2IB-first-once.py
 ```
-* Verify Extensible attributes were created in InfoBlox
+* Verify Extensible attributes were created in Infoblox  
 ![XMC2IB-first-once_result](XMC2IB-first-once_result.png)
-* You can delete the script if those Extensible attributes are present in InfoBlox
+* You can delete the script if those Extensible attributes are present in Infoblox
 
 ### Install the script
-* Update the variables in the XMC2IB.py
+* Update the variables in the XMC2IB.py  
 ![XMC2IB](XMC2IB.png)
 * Upload the `XMC2IB.py` script to the Extreme Management Center to `/usr/local/bin`.
 * Change the script to be executable: 
@@ -28,21 +28,21 @@ chmod +x /usr/local/bin/XMC2IB.py
 ```
 
 ### Setup notifications = execution of API calls
-* NAC Manager (Java application) -> Notifications
+* NAC Manager (Java application) -> Notifications  
 ![IB-update-action](IB-update-action.png)
 Program:	`/usr/local/bin/XMC2IB.py`
 Working Directory:	`/tmp`
 Override Content:	`checked`
-Edit Content `…`
+Edit Content `…`  
 ![IB-update-action-override](IB-update-action-override.png)
 Custom Arguments:
 `Mac $macAddress Status $state Auth $authType SwitchIP $switchIP SwitchPort $switchPortId SwitchLocation $switchLocation Profile $nacProfileName User $username Reason $reason Time $lastSeenTime`
 
 ## Testing and usage
 ###Extensible attributes in the IPAM and DHCP
-Extensible attributes are stored in InfoBlox database only for Fixed Address / Reservation and for DNS objects:
+Extensible attributes are stored in Infoblox database only for Fixed Address / Reservation and for DNS objects:  
 ![It-works-IB1](It-works-IB1.png)
-Extensible attributes can be used in InfoBlox filters for both IPAM and DHCP:
+Extensible attributes can be used in Infoblox filters for both IPAM and DHCP:  
 ![It-works-IB2](It-works-IB2.png)
 
 
