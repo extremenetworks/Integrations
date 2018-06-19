@@ -30,9 +30,9 @@ chmod +x /usr/local/bin/XMC2IB.py
 ### Setup notifications = execution of API calls
 * NAC Manager (Java application) -> Notifications  
 ![IB-update-action](IB-update-action.png)
-Program:	`/usr/local/bin/XMC2IB.py`
-Working Directory:	`/tmp`
-Override Content:	`checked`
+Program:	`/usr/local/bin/XMC2IB.py`  
+Working Directory:	`/tmp`  
+Override Content:	`checked`  
 Edit Content `…`  
 ![IB-update-action-override](IB-update-action-override.png)
 Custom Arguments:
@@ -41,7 +41,7 @@ Custom Arguments:
 ## Testing and usage
 ###Extensible attributes in the IPAM and DHCP
 Extensible attributes are stored in Infoblox database only for Fixed Address / Reservation and for DNS objects:  
-![It-works-IB1](It-works-IB1.png)
+![It-works-IB1](It-works-IB1.png)  
 Extensible attributes can be used in Infoblox filters for both IPAM and DHCP:  
 ![It-works-IB2](It-works-IB2.png)
 
