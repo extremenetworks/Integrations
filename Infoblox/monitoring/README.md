@@ -16,7 +16,7 @@ MIBs are part of the Infoblox product. Just download it from the GUI and unpack 
 Necessary Mibs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 
 ### Vendor profile
-Right click on the device at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined Device View, then the Family must be 'Infoblox DDI'. When the logo is first uploaded the preview may be with wrong aspect ratio:
+Right click on the device at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined Device View, then the Family must be `Infoblox DDI`. When the logo is first uploaded the preview may be with wrong aspect ratio:
 ![Details](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/InfoBlox/sample/VendorProfile-InfoBlox.png)
 
 ### DeviceView

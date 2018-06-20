@@ -43,10 +43,10 @@ Custom Arguments:
 `Mac $macAddress Status $state Auth $authType SwitchIP $switchIP SwitchPort $switchPortId SwitchLocation $switchLocation Profile $nacProfileName User $username Reason $reason Time $lastSeenTime`
 
 ## Testing and usage
-###Extensible attributes in the IPAM and DHCP
-Extensible attributes are stored in Infoblox database only for Fixed Address / Reservation and for DNS objects:  
+### Extensible attributes in the IPAM and DHCP
+* Extensible attributes are stored in Infoblox database only for Fixed Address / Reservation and for DNS objects  
 ![It-works-IB1](It-works-IB1.png)  
-Extensible attributes can be used in Infoblox filters for both IPAM and DHCP:  
+* Extensible attributes can be used in Infoblox filters for both IPAM and DHCP  
 ![It-works-IB2](It-works-IB2.png)
 
 

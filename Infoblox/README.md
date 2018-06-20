@@ -3,8 +3,8 @@
 _Abstract: How to integrate ExtremeManagement & ExtremeControl with Infoblox._
 
 ## Monitoring by Extreme Management Center
-The communication between Extreme Management Center and Infoblox is based on SNMP and API calls (https). API calls are originated from Extreme Management Center to enhance the Infoblox information (Extensible attributes, IP filters). API calls are originated from Infoblox to quarantine the attacker.
-* [Details & How-To](monitoring/README.md)
+The communication between Extreme Management Center and Infoblox is based on SNMP and API calls (https). API calls are originated from Extreme Management Center to enhance the Infoblox information (Extensible attributes, IP filters). API calls are originated from Infoblox to quarantine the attacker.  
+[Details & How-To](monitoring/README.md)
 ### Tested versions
 #### Extreme Management Center: 8.0 and 8.1.2.59
 #### Infoblox: 8.2.5-369575
