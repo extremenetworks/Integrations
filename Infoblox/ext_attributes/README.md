@@ -3,6 +3,7 @@
 ## Extreme Management Center configuration
 
 ### Prepare Infoblox extensible attributes in Infoblox
+* Download the [XMC2IB-first-once.py](XMC2IB-first-once.py?raw=true)
 * Update the variables in the XMC2IB-first-once.py  
 ![XMC2IB-first-once](XMC2IB-first-once.png)
 * Upload the `XMC2IB-first-once.py` script to the Extreme Management Center.
@@ -23,6 +24,7 @@ rm XMC2IB-first-once.py
 
 
 ### Install the script
+* Download the [XMC2IB.py](XMC2IB.py?raw=true)
 * Update the variables in the XMC2IB.py  
 ![XMC2IB](XMC2IB.png)
 * Upload the `XMC2IB.py` script to the Extreme Management Center to `/usr/local/bin`.

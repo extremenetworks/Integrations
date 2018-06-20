@@ -3,6 +3,7 @@
 ## Extreme Management Center configuration
 
 ### Install the script
+* Download the [XMC2IBfilter.py](XMC2IBfilter.py?raw=true)
 * Update the variables in the `XMC2IBfilter.py`  
 ![XMC2IBfilter-setup](XMC2IBfilter-setup.png)  
 * Upload the `XMC2IBfilter.py` script to the Extreme Management Center to `/usr/local/bin`.
