@@ -5,36 +5,40 @@
 ### Prepare Infoblox extensible attributes in Infoblox
 * Update the variables in the XMC2IB-first-once.py  
 ![XMC2IB-first-once](XMC2IB-first-once.png)
-* Upload the 'XMC2IB-first-once.py' script to the Extreme Management Center.
-* Change the script to be executable: 
+* Upload the `XMC2IB-first-once.py` script to the Extreme Management Center.
+* Change the script to be executable:
 ```bash
 chmod +x XMC2IB-first-once.py
 ```
-* Execute the script 
+* Execute the script
 ```bash
 ./XMC2IB-first-once.py
 ```
 * Verify Extensible attributes were created in Infoblox  
 ![XMC2IB-first-once_result](XMC2IB-first-once_result.png)
-* You can delete the script if those Extensible attributes are present in Infoblox
+* You can delete the script now if those Extensible attributes are present in Infoblox
+```bash
+rm XMC2IB-first-once.py
+```
+
 
 ### Install the script
 * Update the variables in the XMC2IB.py  
 ![XMC2IB](XMC2IB.png)
 * Upload the `XMC2IB.py` script to the Extreme Management Center to `/usr/local/bin`.
-* Change the script to be executable: 
+* Change the script to be executable:
 ```bash
 chmod +x /usr/local/bin/XMC2IB.py
 ```
 
 ### Setup notifications = execution of API calls
 * NAC Manager (Java application) -> Notifications  
-![IB-update-action](IB-update-action.png)
+![IB-update-action](IB-update-action.png)  
 Program:	`/usr/local/bin/XMC2IB.py`  
 Working Directory:	`/tmp`  
 Override Content:	`checked`  
 Edit Content `…`  
-![IB-update-action-override](IB-update-action-override.png)
+![IB-update-action-override](IB-update-action-override.png)  
 Custom Arguments:
 `Mac $macAddress Status $state Auth $authType SwitchIP $switchIP SwitchPort $switchPortId SwitchLocation $switchLocation Profile $nacProfileName User $username Reason $reason Time $lastSeenTime`
 

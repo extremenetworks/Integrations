@@ -22,7 +22,7 @@ For Infoblox objects „Reservation“ and „Host“ the Infoblox operator does
 *	Username = Name of the logged in user
 *	Reason = Name of the access control rule what authorized the end-system
 *	Last seen time = When the information was last updated
-All those attributes can be used for search in Infoblox GUI.
+All those attributes can be used for search in Infoblox GUI.  
 [Details & How-To](ext_attributes/README.md)
 ### Tested versions
 #### Extreme Management Center: 8.0 and 8.1.2.59
@@ -33,7 +33,7 @@ There are attacks against the DHCP server what can dry the DHCP pool.
 * The attacker can change source MAC address = Can be mitigated by authentication or mac lock.
 * The attacker can create request where the source MAC not the same as „DHCP client hardware address“ = Advanced DHCP inspection is needed at the switch level or some thresholds are necessary to stop this.
 Extreme Control does know what devices are in the network. Extreme Control does maintain the list of connected devices and update this list in the DHCP server.
-The result is that DHCP server does not grant IP address to device what is not connected to the network => The DHCP pool is protected.
+The result is that DHCP server does not grant IP address to device what is not connected to the network => The DHCP pool is protected.  
 [Details & How-To](dhcp/README.md)
 ### Tested versions
 #### Extreme Management Center: 8.0 and 8.1.2.59
@@ -45,7 +45,7 @@ Very advanced techniques are necessary to stop such attacks. Infoblox can detect
 Extreme Control does know what devices are in the network and where those devices are connected (wired port, wireless SSID & AP, VPN, both physical and virtual).
 Infoblox solution does inform Extreme Management Center through the API calls about the security incident. 
 Extreme Control (part of Extreme Management Center) does quarantine the attacking device at the switch and/or AP level.
-The result is that the attack is stopped and attacker is quarantined.
+The result is that the attack is stopped and attacker is quarantined.  
 [Details & How-To](dips/README.md)
 ### Tested versions
 #### Extreme Management Center: 8.0 and 8.1.2.59
