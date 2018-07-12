@@ -2,6 +2,7 @@
 Community maintained integrations
 
 * [Integrations with Infoblox](Infoblox/README.md)
+* [Integration with Trend Micro Control Manager](https://community.extremenetworks.com/extreme/topics/integration-of-trend-micro-control-manager-solution-with-extreme-networks-through-the-distributed-ips-connect-module)
 
 
 # Support
