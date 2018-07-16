@@ -11,9 +11,9 @@ Download relevant flexviews and upload it to the following directory on the Extr
 `install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews`
 
 ### MIBs
-SonicWall flexviews does need SonicWall mibs. To download mibs, you will need access to mysonicwall.com Each SonicWall customer with a valid license does have access there.
-[KB article](https://www.sonicwall.com/en-us/support/knowledge-base/170503581936826)
-Necessary Mibs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+SonicWall flexviews do need SonicWall MIBs. To download mibs, you will need access to mysonicwall.com. Each SonicWall customer with a valid license does have access there.
+[KB article](https://www.sonicwall.com/en-us/support/knowledge-base/170503581936826).
+Necessary MIBs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 
 ### Vendor profile
 Right click on the Firewall at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined Device View, then the Family must be `Network Security`. When the logo is first uploaded the preview may be with wrong aspect ratio:
