@@ -12,7 +12,10 @@ Tested versions:
 
 ## User ID to IP mapping through RSSO
 The communication between Extreme Management Center and Check Point is based on Radius Accounting. Radius Accounting messages are originated from Extreme Management Center to enhance the Check Point user identity information.
+
 [Details & How-To](idtoip/README.md).
+
+[Video how does it work](https://extr.co/2vPQ6rv)
 
 Tested versions:
 * Extreme Management Center: 8.0 and 8.1.2.59 and 8.1.3.65

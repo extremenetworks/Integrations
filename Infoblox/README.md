@@ -3,11 +3,12 @@
 _Abstract: How to integrate ExtremeManagement & ExtremeControl with Infoblox._
 
 ## Monitoring by Extreme Management Center
-The communication between Extreme Management Center and Infoblox is based on SNMP and API calls (https). API calls are originated from Extreme Management Center to enhance the Infoblox information (Extensible attributes, IP filters). API calls are originated from Infoblox to quarantine the attacker.  
+The communication between Extreme Management Center and Infoblox is based on SNMP and API calls (https). API calls are originated from Extreme Management Center to enhance the Infoblox information (Extensible attributes, IP filters). API calls are originated from Infoblox to quarantine the attacker.
+
 [Details & How-To](monitoring/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### Infoblox: 8.2.5-369575
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* Infoblox: 8.2.5-369575
 
 
 ## Information enhancement
@@ -25,9 +26,12 @@ For Infoblox objects „Reservation“ and „Host“ the Infoblox operator does
 All those attributes can be used for search in Infoblox GUI.
 
 [Details & How-To](ext_attributes/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### Infoblox: 8.2.5-369575
+
+[Video how does it work](https://extr.co/2Pferz5)
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* Infoblox: 8.2.5-369575
 
 ## DHCP pool protection
 There are attacks against the DHCP server what can dry the DHCP pool.
@@ -37,9 +41,12 @@ Extreme Control does know what devices are in the network. Extreme Control does 
 The result is that DHCP server does not grant IP address to device what is not connected to the network => The DHCP pool is protected.
 
 [Details & How-To](dhcp/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### Infoblox: 8.2.5-369575
+
+[Video how does it work](https://extr.co/2Mjm9dG)
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* Infoblox: 8.2.5-369575
 
 ## Distributed IPS
 DNS attacks are more and more popular. DNS tunneling is very high risk for the company.
@@ -50,9 +57,12 @@ Extreme Control (part of Extreme Management Center) does quarantine the attackin
 The result is that the attack is stopped and attacker is quarantined.
 
 [Details & How-To](dips/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### Infoblox: 8.2.5-369575
+
+[Video how does it work](https://extr.co/2PfeY43)
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* Infoblox: 8.2.5-369575
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._

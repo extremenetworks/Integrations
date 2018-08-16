@@ -6,9 +6,10 @@ _Abstract: How to integrate ExtremeManagement & ExtremeControl with SonicWall._
 The communication between Extreme Management Center and SonicWall is based on SNMP.
 
 [Details & How-To](monitoring/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### SonicOs 6.5.0.2
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* SonicOs 6.5.0.2
 
 ## Information enhancement = User ID to IP mapping
 In advance to the Monitoring integration there are several benefits with User ID to IP mapping. This integration does use RADIUS protocol.  RADIUS accounting is performed from Extreme Management Center to SonicWall. 
@@ -16,9 +17,12 @@ With Extreme Control the customer does have visibility of each endsystem attache
 Customer can apply different firewall rules based on user group. = Different firewall rules for sales team comparing to engineering team.
 
 [Details & How-To](idtoip/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### SonicOs 6.5.0.2
+
+[Video how does it work](https://extr.co/2BgxfLm)
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* SonicOs 6.5.0.2
 
 ## Distributed IPS
 Security tools like SonicWall firewall can detect security threat, the SonicWall firewall can also block the threat when the traffic is passing through the firewall.
@@ -26,9 +30,12 @@ With combination of SonicWall firewall and ExtremeControl, the automated inciden
 The endsystem device is quarantined automaticaly based on the information from SonicWall firewall.
 
 [Details & How-To](dips/README.md)
-### Tested versions
-#### Extreme Management Center: 8.0 and 8.1.2.59
-#### SonicOs 6.5.0.2
+
+[Video how does it work](https://extr.co/2Mo6fy3)
+
+Tested versions:
+* Extreme Management Center: 8.0 and 8.1.2.59
+* SonicOs 6.5.0.2
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
