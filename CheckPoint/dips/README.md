@@ -16,6 +16,7 @@
 #cd /opt/CPrt-R80/log_exporter/targets/Extreme(name of the export Name)/
 #vi targetConfiguration.xml
 ```
+```
   <is_enabled>true</is_enabled><!--Is the process allowed to run, and start on cpstart-->
   <!-- Destination section defines the properties of the export target -->
   <destination type="syslog"> <!-- Target output type -->
@@ -30,10 +31,10 @@
                 <field  name="product">
 ```
 * filter_out_by_connection should be true
-* Reboot is required to start the log exporter package
+* Reboot is required to start the log exporter package.
 
 ### IPS Inspection configuration 
-* Clone an Threat profile (For example optimized to Extreme Networks).
+* Clone an Threat Profile (For example optimized to Extreme Networks).
 ![Create Profile](CreateProfile.png "Create Profile")
 * Example of Profile configuration.
 ![General Policy](ProfileGeneral.png "General Policy")
