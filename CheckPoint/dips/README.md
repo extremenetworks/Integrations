@@ -3,11 +3,11 @@
 ## Check Point configuration
 
 ### Log Exporter
-* The Log Exporter can be installed on the management server of Check Point solution.
-* The package Log exporter T35 sk122323 must be installed to enable syslog export. The Log Exporter should be integrated in the Check Point OS in next release.
+* The package Log exporter T35 sk122323 must be installed to enable syslog export. In the next Check Point OS relase the Log Exporter should be integrated by default.
+* The Log Exporter can be installed on the management node of Check Point solution.
 ![Log Exported](LogExporterInstall.png "Log Exported T35")
 * Connect to the Check Point management node through SSH or chose “Open Terminal” web menu. Enter the expert mode.
-* Configure the Checkpoint CPlog.
+* Configure the Check Point CPlog.
 ```bash
 #cp_log_export add name Extreme target-server “xmc ip address” target-port 514 protocol udp format generic
 ```
