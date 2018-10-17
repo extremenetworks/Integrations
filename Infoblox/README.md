@@ -64,6 +64,9 @@ Tested versions:
 * Extreme Management Center: 8.0 and 8.1.2.59
 * Infoblox: 8.2.5-369575
 
+## Infoblox community web
+[Another source of information](https://community.infoblox.com/t5/Extreme-Networks/gp-p/extreme-networks).
+
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
 
