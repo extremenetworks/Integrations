@@ -46,6 +46,7 @@ Alert template format: Rule Name: <Rule Name> Acting Account: <Acting Object Dom
 By default the DatAlert does report the information with 60 seconds delay. You may edit file: `Varonis\DatAdvantage\Probe\VrnsProbeSvc.exe.varonis.config` and shorten the time.
 
 Find the section:`<configuration><probe><filer><win>` and replace original values with new values:
+
 | Original value | New value |
 | -------------- | --------- |
 | `<add key="EnablePatternFilter" value="1"/>` | `<add key="EnablePatternFilter" value="0"/>` |
