@@ -44,11 +44,12 @@ Alert template format: Rule Name: <Rule Name> Acting Account: <Acting Object Dom
 
 ## Varonis DatAlert tuning
 By default the DatAlert does report the information with 60 seconds delay. You may edit file: `Varonis\DatAdvantage\Probe\VrnsProbeSvc.exe.varonis.config` and shorten the time.
+
 Find the section:`<configuration><probe><filer><win>` and replace original values with new values:
 | Original value | New value |
 | -------------- | --------- |
-| <add key="EnablePatternFilter" value="1"/> | <add key="EnablePatternFilter" value="0"/> |
-| <add key="[long]QueueWaitTime" value="60000" /> | <add key="[long]QueueWaitTime" value="10000" /> |
+| `<add key="EnablePatternFilter" value="1"/>` | `<add key="EnablePatternFilter" value="0"/>` |
+| `<add key="[long]QueueWaitTime" value="60000" />` | `<add key="[long]QueueWaitTime" value="10000" />` |
 
 QueueWaitTime = how often does the sensor connect to file server and gather events. Value in miliseconds.
 
@@ -56,21 +57,16 @@ EnablePatternFilter = does filter temporary files which are part of short sequen
 
 ## ExtremeManagement configuration
 1. Import Workflow
-
-Download the [workflow](files/DatAlertWorkflow.xwf?raw=true).
-
-OneView -> Tasks -> Workflows -> User Workflows -> Creage Group: DIPS
-
-OneView -> Tasks -> Workflows -> User Workflows -> DIPS -> Import
-
+* Download the [workflow](files/DatAlertWorkflow.xwf?raw=true).
+* OneView -> Tasks -> Workflows -> User Workflows -> Creage Group: DIPS
+* OneView -> Tasks -> Workflows -> User Workflows -> DIPS -> Import
 ![Import](files/WorkflowImport.PNG "Import")
 
 2. XMC Alarm configuration
-
-If the Syslog does contain phrase „Varonis-DatAlert“ then execute the workflow task.
-![Alarm](files/Alarm1.PNG "Alarm")
-![Alarm](files/Alarm2.PNG "Alarm")
-![Alarm](files/Alarm3.PNG "Alarm")
+ If the Syslog does contain phrase „Varonis-DatAlert“ then execute the workflow task.
+ ![Alarm](files/Alarm1.PNG "Alarm")
+ ![Alarm](files/Alarm2.PNG "Alarm")
+ ![Alarm](files/Alarm3.PNG "Alarm")
 
 ## Verification. If it is working...
 1. The alert was detected by Varonis DatAlert.
