@@ -58,10 +58,10 @@ EnablePatternFilter = does filter temporary files which are part of short sequen
 
 ## ExtremeManagement configuration
 1. Import Workflow
-* Download the [workflow](files/DatAlertWorkflow.xwf?raw=true).
-* OneView -> Tasks -> Workflows -> User Workflows -> Creage Group: DIPS
-* OneView -> Tasks -> Workflows -> User Workflows -> DIPS -> Import
-![Import](files/WorkflowImport.PNG "Import")
+ Download the [workflow](files/DatAlertWorkflow.xwf?raw=true).
+ OneView -> Tasks -> Workflows -> User Workflows -> Creage Group: DIPS
+ OneView -> Tasks -> Workflows -> User Workflows -> DIPS -> Import
+ ![Import](files/WorkflowImport.PNG "Import")
 
 2. XMC Alarm configuration
  If the Syslog does contain phrase „Varonis-DatAlert“ then execute the workflow task.
