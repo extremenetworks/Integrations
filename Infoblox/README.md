@@ -30,7 +30,7 @@ All those attributes can be used for search in Infoblox GUI.
 [Video how does it work](https://extr.co/2Pferz5)
 
 Tested versions:
-* Extreme Management Center: 8.0 and 8.1.2.59
+* Extreme Management Center: 8.0, 8.1.2.59, 8.2.4.42
 * Infoblox: 8.2.5-369575
 
 ## DHCP pool protection

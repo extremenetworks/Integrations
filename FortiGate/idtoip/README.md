@@ -42,7 +42,7 @@
 * Use Radius Shared Secret must match the one in Extreme Connect FortiGate SSO module:
 
 ![RSSO](RSSO1.png "RSSO")
-* The RSSO must be configured from the CLI (SSH / telnet / webCLI). The important is rsso-attribute-key and rsso-endpoint-attribute:
+* The RSSO must be configured from the CLI (SSH / telnet / webCLI). The important is sso-attribute-key and rsso-endpoint-attribute:
 
 ![RSSO](RSSO2.png "RSSO")
 * The XMC is sending Radius Accounting = in FortiGate it must be configured as Radius server. Yes I would call it Radius client but it is called server:
