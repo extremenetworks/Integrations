@@ -4,7 +4,9 @@
 * FortiGate can inform the Extreme Connect to quarantine the end-system by syslog message. Open the OneView -> Connect -> Configuration -> Administration -> Distributed IPS -> Services  
 
 ![Connect](Connect.png "Connect")
-* Regex: `devid=<br>FGVMEV4L-TUFYM70</br>.*srcip=$threatIpAddress.*action="deny".*policy$threatName\s`
+* Regex for FortiGate v6: `devid="FGVMEV4L-TUFYM70".*srcip=$threatIpAddress.*action="deny".*policy$threatName\s`
+Based on the FortiGate firewall settings the module can receive many syslog messages. It is very probable that customer will not want to Blacklist every device for each packet drop. Careful customization of the regex is recommended. The example above does match events from FortiGate with name `FGVMEV4L-TUFYM70`.  
+* Regex for FortiGate v5: `devid=FGVMEV4L-TUFYM70.*srcip=$threatIpAddress.*action="deny".*policy$threatName\s`
 Based on the FortiGate firewall settings the module can receive many syslog messages. It is very probable that customer will not want to Blacklist every device for each packet drop. Careful customization of the regex is recommended. The example above does match events from FortiGate with name `FGVMEV4L-TUFYM70`.  
 * File:	`/var/log/syslog`
 * senderFilter: name or IP of the sender

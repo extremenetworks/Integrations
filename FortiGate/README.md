@@ -30,8 +30,8 @@ FortiGate does inform Extreme Control (part of Management Center) and the threat
 [Video how does it work](https://extr.co/2LFRMsx)
 
 Tested versions:
-* Extreme Management Center: 8.0 and 8.1.2.59 and 8.1.3.65
-* FortiGate: v5.6.2 build1486 (GA)
+* Extreme Management Center: 8.0 and 8.1.2.59 and 8.1.3.65 and 8.2.2.100
+* FortiGate: v5.6.2 build1486 (GA), v6.0.4 build0231 (GA)
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
