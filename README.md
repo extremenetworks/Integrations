@@ -1,3 +1,6 @@
+![GitHub stars](https://img.shields.io/github/stars/extremenetworks/Integrations.svg?style=social)  
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/extremenetworks/Integrations.svg?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/extremenetworks/Integrations.svg?style=social)
 # Integrations
 Community maintained integrations:
 
@@ -11,6 +14,7 @@ Community documented integrations:
 
 * [Integrations with Fortinet](FortiGate/README.md)
 * [Integration with IBM QRadar](QRadar/README.md)
+* [Integration with Elasticsearch](ELK/README.md)
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
