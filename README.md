@@ -15,6 +15,7 @@ Community documented integrations:
 * [Integrations with Fortinet](FortiGate/README.md)
 * [Integration with IBM QRadar](QRadar/README.md)
 * [Integration with Elasticsearch](ELK/README.md)
+* [Integration with Splunk](Splunk/README.md)
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
