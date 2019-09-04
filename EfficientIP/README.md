@@ -1,6 +1,6 @@
 # ExtremeControl & EfficientIP
 
->Powered by S. Harrer [Bell Computer-Netzwerke GmbH](http://www.bell.de/)
+>Powered by S. Harrer [Bell Computer-Netzwerke GmbH](http://www.bell.de/) based on Zdenek Palas Infoblox integration.
 
 _Abstract: How to integrate ExtremeManagement & ExtremeControl with EfficientIP._
 
