@@ -2,7 +2,6 @@
 ##############################################################################
 #
 # Softwarename : XMC2EIP.py
-# Version : 1.0
 # Last Updated : August 20, 2019
 #
 # Purpose:  Send XMC data to EfficientIP IPAM
