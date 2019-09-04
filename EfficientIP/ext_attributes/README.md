@@ -85,7 +85,7 @@ Edit Content `…`
 Custom Arguments:
 `Mac $macAddress Status $state Auth $authType SwitchIP $switchIP SwitchPort $switchPortId SwitchLocation $switchLocation Profile $nacProfileName User $username Reason $reason Time $lastSeenTime`
 
-## Testing and usage
+## Example and usage
 ### Extensible attributes in IPAM
 * Extensible attributes are stored in EfficientIP database only for Fixed Address / Reservation
 ![EIP_Example1](EIP_Example1.png)
