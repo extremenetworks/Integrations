@@ -9,6 +9,7 @@ Community maintained integrations:
 * [Integration with Trend Micro Control Manager](https://community.extremenetworks.com/extreme/topics/integration-of-trend-micro-control-manager-solution-with-extreme-networks-through-the-distributed-ips-connect-module)
 * [Integrations with Check Point](CheckPoint/README.md)
 * [Integration with Varonis DatAlert](VaronisDatAlert/README.md)
+* [Integration with EfficientIP(EfficientIP/README.md)
 
 Community documented integrations:
 
