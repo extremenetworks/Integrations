@@ -1,5 +1,6 @@
 # Information enhancement
 
+>Powered by S. Harrer [Bell Computer-Netzwerke GmbH](http://www.bell.de/) based on Zdenek Palas Infoblox integration.
 
 ## Extreme Management Center and EfficientIP (EIP) configuration
 
