@@ -1,5 +1,7 @@
 # ExtremeControl & EfficientIP
 
+>Powered by S. Harrer [Bell Computer-Netzwerke GmbH](http://www.bell.de/)
+
 _Abstract: How to integrate ExtremeManagement & ExtremeControl with EfficientIP._
 
 
@@ -24,7 +26,7 @@ Tested versions:
 
 
 # Support
-_The software is provided as-is and neither [Extreme Networks](http://www.extremenetworks.com/) nor [Bell Computer-Netzwerke](http://www.bell.de/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) or [Bell Computer-Netzwerke](http://bell.de) is at its sole discretion._
+_The software is provided as-is and neither [Extreme Networks](http://www.extremenetworks.com/) nor [Bell Computer-Netzwerke GmbH](http://www.bell.de/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) or [Bell Computer-Netzwerke GmbH](http://bell.de) is at its sole discretion._
 
 Issues and/or bug fixes may be reported on [The Hub](https://community.extremenetworks.com/extreme).
 
