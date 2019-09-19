@@ -1,4 +1,4 @@
-# User ID to IP mapping
+# Username to IP mapping
 
 ## Extreme Connect configuration
 * To integrate with Check Point we can use LigthSpeed module available in Extreme Connect. The configution file: `/usr/local/Extreme_Networks/NetSight/wildfly/standalone/configuration/connect/LightSpeedHandler.xml` The content of the file can be adjusted = the module will de displayed as “CheckPointRSSO”:
