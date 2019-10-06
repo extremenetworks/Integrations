@@ -164,15 +164,15 @@ if varSearchResult:
 else:
 	logging.error("Can't find MAC-Address " + varMAC)
 	sys.exit("UnknownMAC")
-
-if (re.search(r"dhcphost_id\":\"0\",\"dhcplease_id\":\"[1-9]+", varResponse.text)):
-	sys.exit("DynamicAddress")
-
+    
 varIsStatic = False
 
-if (re.search(r"dhcphost_id\":\"[1-9]+\",\"dhcplease_id\":\"\d+", varResponse.text)):
+if (re.search(r"&dhcpstatic=0&", varResponse.text)):
+        logging.error("DynamicAddress ")
+        sys.exit("DynamicAddress")
+else:
 	varIsStatic = True
-	
+
 varSearchResult = re.search(r"site_id\":\"(\d*)", varResponse.text)
 
 if varSearchResult:
