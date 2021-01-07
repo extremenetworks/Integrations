@@ -6,7 +6,7 @@ _Abstract: How to integrate Extreme solutions with Splunk._
 [Analytics](README-Analytics.md)
 
 ## EXOS switch to Splunk
-[EXOS](https://gtacknowledge.extremenetworks.com/articles/How_To/How-to-configure-an-EXOS-switch-to-work-with-Splunk)  
+[EXOS](https://extremeportal.force.com/ExtrArticleDetail?an=000082127&q=How-to-configure-an-EXOS-switch-to-work-with-Splunk)  
 [EXOS for Splunk app](https://splunkbase.splunk.com/app/1780/)
 
 

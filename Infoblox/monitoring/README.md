@@ -13,7 +13,7 @@ Download relevant flexviews and upload it to the following directory on the Extr
 ### MIBs
 MIBs are part of the Infoblox product. Just download it from the GUI and unpack the file.
 ![Details](Infoblox-mibs-download.png)
-Necessary Mibs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+Necessary Mibs should be imported to Extreme Management Center. [KB article](https://extremeportal.force.com/ExtrArticleDetail?an=000080448&q=Netsight-Importing-a-MIB-into-Netsight)
 
 ### Vendor profile
 Right click on the device at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined Device View, then the Family must be `Infoblox DDI`. When the logo is first uploaded the preview may be with wrong aspect ratio:

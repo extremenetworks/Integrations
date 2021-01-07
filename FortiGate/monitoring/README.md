@@ -12,7 +12,7 @@ Download relevant flexviews and upload it to the following directory on the Extr
 
 ### MIBs
 FortiGate FlexViews do need FortiGate MIBs. You can download MIBs from the FortiGate System -> SNMP -> Download FortiGate MIB File & Download Fortinet Core MIB File.
-Necessary MIBs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+Necessary MIBs should be imported to Extreme Management Center. [KB article](https://extremeportal.force.com/ExtrArticleDetail?an=000080448&q=Netsight-Importing-a-MIB-into-Netsight)
 
 ### Vendor profile
 Right click on the appliance at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined DeviceView, then the Family must be `FortiGate`. When the logo is first uploaded the preview may be with wrong aspect ratio:
