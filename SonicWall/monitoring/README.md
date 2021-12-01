@@ -6,7 +6,7 @@
 The communication between Extreme Management Center and SonicWall is based on SNMP.
 
 ### FlexViews
-Flexviews for SonicWall are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/FlexView/SonicWall/README.md)
+Flexviews for SonicWall are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/FlexView/SonicWall/README.md)
 Download relevant flexviews and upload it to the following directory on the Extreme Management Center:
 `install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews`
 
@@ -17,10 +17,10 @@ Necessary MIBs should be imported to Extreme Management Center. [KB article](htt
 
 ### Vendor profile
 Right click on the Firewall at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined Device View, then the Family must be `Network Security`. When the logo is first uploaded the preview may be with wrong aspect ratio:
-![Details](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/SonicWall/sample/VendorProfile-SonicWall.png)
+![Details](https://github.com/extremenetworks/XMC-Report-Views/blob/master/DeviceView/SonicWall/sample/VendorProfile-SonicWall.png)
 
 ### DeviceView
-DeviceViews are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/SonicWall/README.md)
+DeviceViews are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/DeviceView/SonicWall/README.md)
 
 ## SonicWall configuration
 

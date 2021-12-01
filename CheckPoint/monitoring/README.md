@@ -6,7 +6,7 @@
 The communication between Extreme Management Center and Check Point appliance is based on SNMP.
 
 ### FlexViews
-FlexViews for Check Point are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/FlexView/CheckPoint/README.md).
+FlexViews for Check Point are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/FlexView/CheckPoint/README.md).
 Download relevant flexviews and upload it to the following directory on the Extreme Management Center:
 `install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews`
 
@@ -19,7 +19,7 @@ Right click on the appliance at Network menu of Extreme Management Center -> Dev
 ![Details](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/CheckPoint/sample/DeviceFamily.png "Details")
 
 ### DeviceView
-DeviceViews are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/CheckPoint/README.md)
+DeviceViews are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/DeviceView/CheckPoint/README.md)
 
 ## Check Point configuration
 
