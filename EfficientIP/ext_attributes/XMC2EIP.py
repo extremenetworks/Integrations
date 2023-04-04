@@ -1,12 +1,14 @@
 #!/usr/bin/python
 ##############################################################################
 #
+# Creator: Stephan Harrer - Bell Computer Netzwerke GmbH
 # Softwarename : XMC2EIP.py
-# Last Updated : August 20, 2019
+# Last Updated : April, 2022
 #
 # Purpose:  Send XMC data to EfficientIP IPAM
 #
-# Changes: Created
+# Changes:  2018 Mai 31:  Created
+#	        2022 April 4: Json added for response
 #
 ##############################################################################
 
@@ -19,6 +21,7 @@ import re
 import sys
 import logging
 import base64
+import json
 
 ###############
 ## User data ##
@@ -148,9 +151,13 @@ try:
 except requests.exceptions.RequestException as e:
     logging.error(str(e))
     sys.exit("RequestException")
-	
+
+varResponseJson = json.loads(varResponse.text)
+varIpInfo = varResponseJson[0]['ip_class_parameters']
+
 if varDebug:
     logging.debug("response: " + varResponse.text)
+    logging.debug("response json: " + varIpInfo)
 	
 if varResponse.raise_for_status():
 	logging.error("ERROR communicating to EIP " + str(varResponse.status_code) + varResponse.text)
@@ -167,9 +174,9 @@ else:
     
 varIsStatic = False
 
-if (re.search(r"&dhcpstatic=0&", varResponse.text)):
-        logging.error("DynamicAddress ")
-        sys.exit("DynamicAddress")
+if (re.search(r"dhcpstatic=0", varIpInfo)):
+    logging.error("DynamicAddress")
+    sys.exit("DynamicAddress")
 else:
 	varIsStatic = True
 
