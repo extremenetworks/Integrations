@@ -15,7 +15,7 @@
 
 
 ### Install the Workflow
-* Download the [XMC-to-Infoblox](XMC-to-Infoblox-8.2.4.41v18.xwf?raw=true)
+* Download the [XMC-to-Infoblox](XMC-to-Infoblox-21.4.11.2v19.xwf?raw=true)
 * Import Workflow to the XMC
 * Update the variables in the workflow
 ![XMC2IBworkflow](XMC2IBworkflow.png)

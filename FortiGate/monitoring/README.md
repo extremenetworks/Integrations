@@ -6,20 +6,20 @@
 The communication between Extreme Management Center and FortiGate appliance is based on SNMP.
 
 ### FlexViews
-FlexViews for FortiGate are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/FlexView/FortiGate/README.md).
+FlexViews for FortiGate are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/FlexView/FortiGate/README.md).
 Download relevant flexviews and upload it to the following directory on the Extreme Management Center:
 `install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews`
 
 ### MIBs
 FortiGate FlexViews do need FortiGate MIBs. You can download MIBs from the FortiGate System -> SNMP -> Download FortiGate MIB File & Download Fortinet Core MIB File.
-Necessary MIBs should be imported to Extreme Management Center. [KB article](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+Necessary MIBs should be imported to Extreme Management Center. [KB article](https://extremeportal.force.com/ExtrArticleDetail?an=000080448&q=Netsight-Importing-a-MIB-into-Netsight)
 
 ### Vendor profile
 Right click on the appliance at Network menu of Extreme Management Center -> Device -> Configure Device…: specify Device Type, Vendor, Company, Image and Family. If you want to use predefined DeviceView, then the Family must be `FortiGate`. When the logo is first uploaded the preview may be with wrong aspect ratio:
-![Details](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/FortiGate/sample/VendorProfile.png "Details")
+![Details](https://github.com/extremenetworks/XMC-Report-Views/blob/master/DeviceView/FortiGate/sample/VendorProfile.png "Details")
 
 ### DeviceView
-DeviceViews are published at this [repository](https://github.com/extremenetworks/Netsight-Report-Views/blob/master/DeviceView/FortiGate/README.md)
+DeviceViews are published at this [repository](https://github.com/extremenetworks/XMC-Report-Views/blob/master/DeviceView/FortiGate/README.md)
 
 ## FortiGate configuration
 

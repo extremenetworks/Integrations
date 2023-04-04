@@ -174,9 +174,9 @@ else:
     
 varIsStatic = False
 
-if (re.search(r"dhcpstatic=0", varIpInfo)):
-    logging.error("DynamicAddress")
-    sys.exit("DynamicAddress")
+if (re.search(r"&dhcpstatic=0&", varResponse.text)):
+        logging.error("DynamicAddress ")
+        sys.exit("DynamicAddress")
 else:
 	varIsStatic = True
 
