@@ -8,7 +8,7 @@
 # Purpose:  Send XMC data to EfficientIP IPAM
 #
 # Changes:  2018 Mai 31:  Created
-#	        2022 April 4: Json added for response
+#	    2022 April 4: Json added for response
 #
 ##############################################################################
 
