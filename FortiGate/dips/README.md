@@ -1,6 +1,6 @@
 # Distributed IPS
 
-## Extreme Management Center configuration
+## ExtremeCloud IQ - Site Engine configuration
 * FortiGate can inform the Extreme Connect to quarantine the end-system by syslog message. Open the OneView -> Connect -> Configuration -> Administration -> Distributed IPS -> Services  
 
 ![Connect](Connect.png "Connect")
@@ -19,7 +19,7 @@ Based on the FortiGate firewall settings the module can receive many syslog mess
 * Do not forget to save your changes.
 
 ## FortiGate
-* In the FortiGate menu: Log & Report -> Log Settings -> IP Address/FQDN is the Extreme Management Center, Send Logs to Syslog enabled, configure what events you want to send to syslog.
+* In the FortiGate menu: Log & Report -> Log Settings -> IP Address/FQDN is the Site Engine, Send Logs to Syslog enabled, configure what events you want to send to syslog.
 
 ![Syslog Settings](SyslogSettings.png "Syslog Settings")
 * Enable logging in the rule you want the quarantine action to happen

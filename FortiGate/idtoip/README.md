@@ -19,14 +19,10 @@
 
 ![Extreme Connect](ConnectConfig.png "Extreme Connect")
 * There can be more firewalls you want to integrate with = each does have unique ID.
-* Server = IP address or FQDN of the FortiGate firewall = destination of radius accounting packages.
-* Password = Shared Secret for radius communication from Extreme Management Center to FortiGate.
-* ssoAttributeKey = what key will XMC send in the Radius Accounting message.
-
-![Extreme Connect](ConnectConfig1.png "Extreme Connect")
-* addClassRadiusAttrbute = yes send the ssoAttributeKey in the radius accounting.
-* primaryNAC = send Radius Accounting to this firewall if endsystem is processed by Access Control Engine (primary NAC-gw).
-* backupNAC = send Radius Accounting to this firewall if endsystem is processed by Access Control Engine (backup NAC-gw).
+* FortiGate IP address = IP address or FQDN of the FortiGate firewall = destination of radius accounting packages.
+* RADIUS shared secret = Shared Secret for radius communication from Site Engine to FortiGate.
+* RADIUS ssoAttributeKey = what key will Site Engine send in the Radius Accounting message.
+* ExtremeControl appliance = send Radius Accounting to this firewall if endsystem is processed by Access this Control Engine.
 
 ![Extreme Connect](ConnectConfig2.png "Extreme Connect")
 * Module enabled = True.
