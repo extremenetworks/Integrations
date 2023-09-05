@@ -9,7 +9,7 @@
 * Connect to the Check Point management node through SSH or chose “Open Terminal” web menu. Enter the expert mode.
 * Configure the Check Point CPlog.
 ```bash
-#cp_log_export add name Extreme target-server “xmc ip address” target-port 514 protocol udp format generic
+#cp_log_export add name Extreme target-server “ip address of Site Engine” target-port 514 protocol udp format generic
 ```
 * Edit the log exporter configuration file.
 ```bash
@@ -24,7 +24,7 @@
     <port>514</port><!--the port on which the syslog is listening to-->
 ```
 * is_enabled needs to be true
-* ip is your XMC server
+* ip is your Site Engine server
 * port shoul be 514
 ```
   <filter filter_out_by_connection="true">

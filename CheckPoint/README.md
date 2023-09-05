@@ -1,9 +1,9 @@
 # ExtremeControl & Check Point Firewall
 
-_Abstract: How to integrate ExtremeManagement & ExtremeControl with Check Point Firewall._
+_Abstract: How to integrate ExtremeCloud IQ - Site Engine & ExtremeControl with Check Point Firewall._
 
-## Monitoring by Extreme Management Center
-The communication between Extreme Management Center and Check Point is based on SNMP.
+## Monitoring by ExtremeCloud IQ - Site Engine
+The communication between ExtremeCloud IQ - Site Engine and Check Point is based on SNMP.
 
 [Details & How-To](monitoring/README.md).
 
@@ -12,7 +12,7 @@ Tested versions:
 * Check Point: GAIA R80.10
 
 ## Username to IP mapping through RSSO = Identity Awareness
-The communication between Extreme Management Center and Check Point is based on Radius Accounting. Radius Accounting messages are originated from Extreme Management Center to enhance the Check Point user identity information.
+The communication between ExtremeCloud IQ - Site Engine and Check Point is based on Radius Accounting. Radius Accounting messages are originated from Extreme Management Center to enhance the Check Point user identity information.
 
 [Details & How-To](idtoip/README.md)
 
@@ -23,7 +23,7 @@ Tested versions:
 * Check Point: GAIA R80.10
 
 ## Distributed IPS solutions
-Check Point does inform Extreme Control (part of Management Center) and the threat is quarantined. Syslog message is used for this communication.
+Check Point does inform Extreme Control (part of ExtremeCloud IQ - Site Engine) and the threat is quarantined. Syslog message is used for this communication.
 
 [Details & How-To](dips/README.md)
 
@@ -34,7 +34,7 @@ Tested versions:
 * Check Point: GAIA R80.10
 
 ## Username to IP mapping through API = Identity Awareness
-The communication between Extreme Management Center and Check Point is based on API calls (https). API calls are originated from Extreme Management Center to enhance the Check Point user identity information.
+The communication between ExtremeCloud IQ - Site Engine and Check Point is based on API calls (https). API calls are originated from ExtremeCloud IQ - Site Engine to enhance the Check Point user identity information.
 
 [Documentation](https://emc.extremenetworks.com/content/oneview/docs/connect/docs/l_ov_connect_security.htm#Check)
 
