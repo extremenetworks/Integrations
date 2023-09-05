@@ -3,7 +3,7 @@
 ## Extreme Management Center 8.2+ configuration
 
 ### Prepare Infoblox extensible attributes in Infoblox when using XMC version 8.2+
-* Download the XMC script [XMC2IB-first-once](XMC2IB-first-once.xml?raw=true)
+* Download the XMC script [XMC2IB-first-once](XMC2IB-first-once.xml)
 * Import the script to the XMC
 * Run the script
 * Chose Infoblox device from the XMC database
@@ -15,7 +15,7 @@
 
 
 ### Install the Workflow
-* Download the [XMC-to-Infoblox](XMC-to-Infoblox-21.4.11.2v19.xwf?raw=true)
+* Download the [XMC-to-Infoblox](XMC-to-Infoblox-21.4.11.2v19.xwf)
 * Import Workflow to the XMC
 * Update the variables in the workflow
 ![XMC2IBworkflow](XMC2IBworkflow.png)
@@ -29,7 +29,7 @@
 ## Extreme Management Center 8.0 and 8.1 configuration
 
 ### Prepare Infoblox extensible attributes in Infoblox when using XMC version 8.0 or 8.1
-* Download the [XMC2IB-first-once.py](XMC2IB-first-once.py?raw=true)
+* Download the [XMC2IB-first-once.py](XMC2IB-first-once.py)
 * Update the variables in the XMC2IB-first-once.py
 ![XMC2IB-first-once](XMC2IB-first-once.png)
 * Upload the `XMC2IB-first-once.py` script to the Extreme Management Center.
@@ -49,7 +49,7 @@ rm XMC2IB-first-once.py
 ```
 
 ### Install the script
-* Download the [XMC2IB.py](XMC2IB.py?raw=true)
+* Download the [XMC2IB.py](XMC2IB.py)
 * Update the variables in the XMC2IB.py
 ![XMC2IB](XMC2IB.png)
 * Upload the `XMC2IB.py` script to the Extreme Management Center to `/usr/local/bin`.

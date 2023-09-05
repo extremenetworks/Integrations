@@ -59,7 +59,7 @@ EnablePatternFilter = does filter temporary files which are part of short sequen
 ## ExtremeManagement configuration
 1. Import Workflow
 
-   Download the [workflow](files/DatAlertWorkflow.xwf?raw=true).
+   Download the [workflow](files/DatAlertWorkflow.xwf).
 
    OneView -> Tasks -> Workflows -> User Workflows -> Creage Group: DIPS
 
@@ -91,7 +91,7 @@ Tested versions:
 * Varonis DatAlert: 6.3.257.58
 
 Older versions of ExtremeManagement:
-* Extreme Management Center 8.0 - 8.1 does not have Workflow feature, the scripting apprach can be used. Here is [HowTo](files/ExtremeControl_DatAlert.pdf?raw=true).
+* Extreme Management Center 8.0 - 8.1 does not have Workflow feature, the scripting apprach can be used. Here is [HowTo](files/ExtremeControl_DatAlert.pdf).
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._

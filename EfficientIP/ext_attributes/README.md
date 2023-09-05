@@ -51,7 +51,7 @@
   
   
 ### Install the script
-* Download the [XMC2EIP.py](XMC2EIP.py?raw=true)
+* Download the [XMC2EIP.py](XMC2EIP.py)
 * Update the variables in the XMC2EIP.py according your needs (Username,Password and IP Address)
 ```bash
 varUser = "ipmadmin"

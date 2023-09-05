@@ -38,7 +38,7 @@ The communication between ExtremeCloud IQ - Site Engine and Check Point is based
 
 [Documentation](https://emc.extremenetworks.com/content/oneview/docs/connect/docs/l_ov_connect_security.htm#Check)
 
-[WebAPI settings](idtoip/WebAPI.png?raw=true)
+[WebAPI settings](idtoip/WebAPI.png)
 
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
