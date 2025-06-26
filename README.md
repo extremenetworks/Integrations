@@ -19,6 +19,10 @@ Community documented integrations:
 * [Integration with Splunk](Splunk/README.md)
 * [Integration ExtremeControl with Cisco Catalyst](http://documentation.extremenetworks.com/ExtremeCloudIQ/IntegrationGuide/ExtremeCloudIQ-SiteEngine_ExtremeControl_Integration_Guide.pdf)
 
+3rd party documented integrations:
+
+* [Integration ExtremeControl with Palo Alto](https://docs.paloaltonetworks.com/iot/integration/network-access-control/integrate-iot-security-with-extreme-networks-extremecloud-iq-site-engine)
+
 # Support
 _The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
 
